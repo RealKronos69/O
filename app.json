@@ -1,0 +1,74 @@
+{
+      "name": "WAIFU-HUNTER-BOT",
+      "description": "Telegram Husbando/Waifu Catcher Bot.",
+            "logo": "https://graph.org/file/1b2d3c1491fbaa85a6d29.jpg",
+      "keywords": [
+         "telegram",
+         "modular",
+         "Husbando Catcher",
+         "Waifu Catcher",
+         "Catcher"
+      ],   
+   "repository": "https://github.com/RealKronos69/lund",
+   "stack": "heroku-22",
+   "addons": [
+      {
+         "options": {
+            "version": "14"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
+   "env": {
+      "TOKEN": {
+         "description": "Your bot token. Get one from @BotFather",
+         "required": true,
+         "value": ""
+      },
+      "api_id": {
+         "description": "Get API_ID from my.telegram.org .",
+         "required": true,
+         "value": "26626068"
+      },
+      "api_hash": {
+         "description": "Get API_HASH from my.telegram.org .",
+         "required": true,
+         "value": "bf423698bcbe33cfd58b11c78c42caa2"
+      },
+      "BOT_USERNAME": {
+         "description": "Your Bot Username without @",
+         "required": true,
+         "value": "WaifuhunteRZbot"
+      },
+      "mongo_url": {
+         "description": "Your Mongo URL.. Don't know how to get Then Search on yt",
+         "required": true,
+         "value": "mongodb+srv://public:abishnoimf@cluster0.rqk6ihd.mongodb.net/?retryWrites=true&w=majority"
+      },
+      "sudo_users": {
+         "description": "",
+         "required": true,
+         "value": "5691178083" 
+      },
+      "SUPPORT_CHAT": {
+         "description": "your bots support chat name without @ or chat id.",
+         "required": true,
+         "value": "waifuhunterlogz" 
+      },
+      "CHARA_CHANNEL_ID": {
+         "description": "A channel id where bot can sends all your uploaded Characters",
+         "required": true,
+         "value": "-1002011392805" 
+      },
+      "OWNER_ID": {
+         "description": "Id of bot owner",
+         "required": true,
+         "value": "5691178083" 
+      },
+     "GROUP_ID": {
+         "description": "Your Support Group id",
+         "required": true,
+         "value": "-1002137911091" 
+      }
+   }     
+      }  
